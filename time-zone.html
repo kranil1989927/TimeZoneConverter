@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title> Change the Time</title>
+		<script src="moment.js"></script>
+		<script src="moment-timezone-with-data.js"></script>
+		<script src="jquery.js"></script>
+		<script src="time-calculator.js"></script>
+	</head>
+	<body>
+		<div style="padding:50px">		
+			<label for="zones"> Time Zone : </label>
+			<select id="zones">
+			  <option value="" selected></option>
+			  <option value="Europe/London">EMEA</option>
+			  <option value="America/New_York">NAM</option>
+			  <option value="Asia/Hong_Kong">APAC</option>
+			</select>
+			</br></br>
+			<button id="calTime" name="calTime">Calculate</button>
+			</br></br>
+			
+			Time after conversion</br>
+			<label id="febTime"></label></br>
+			<label id="sepTime"></label>
+			</br></br>
+						
+			Save to DB</br>
+			<label id="dbDate0"></label></br>
+			<label id="dbDate1"></label>
+			</br></br>
+						
+			Failed to DB</br>
+			<label id="dbDate2"></label></br>
+			<label id="dbDate3"></label>
+			
+		</div>
+	</body>
+</html>
